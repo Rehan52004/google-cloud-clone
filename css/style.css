@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    box-shadow: 0px 1px 5px grey ;
+}
+
+.menu-bar ul {
+    padding: 0;
+    margin: 0;
+}
+
+.menu-bar ul li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar,
+.offcanvas-header {
+    border-bottom: 0.9px solid rgb(201, 200, 200);
+}
+
+.navbar h4,
+.offcanvas-header h4{
+    color: rgb(117, 117, 117);
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin-bottom: 0;
+}
+
+.hero img { 
+    max-width: 100%;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: grey;
+}
+
+.mobile h2 ,.mic-change h2,.strategy h2,.show-me h2,.find-plan h2 {
+    font-size: 2.4rem;
+}
+
+.mobile p,.mic-change p,.strategy p,.show-me p, .find-plan p, .one-app p {
+    font-size: 1rem;
+    color: grey;
+}
+
+.mobile img {
+    max-width: 100%;
+}
+
+.mobile img, .mic-change img ,.strategy img, .show-me img{
+    max-width: 100%;
+}
+
+.logo {
+    border: 1px solid rgba(197, 197, 197, 0.418);
+    margin: 5px 0px;
+}
+
+.logo:hover {
+    box-shadow: 0px 2px 10px rgb(194, 194, 194);
+}
+
+.logo img{
+    max-width: 100%;
+}
+
+.logo-1 {
+    padding: 0px 8px;
+}
+
+.all-logo p {
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.text-left {
+    text-align: left;
+    padding-left: 30px !important;
+}
+
+.container td {
+    padding: 20px 0px;
+}
+
+.container tr {
+    /* border-left: none; */
+    border-left-color: white;
+}
+
+/* .one-app .container {
+    max-width: 70vw;
+} */
+
+.one-app .hline {
+    color: gray;
+    text-align: center;
+    max-width: 80vw;
+    height: 1px;
+}
+
+.one-app h2 {
+    font-size: 2rem;
+}
+
+footer {
+    background-color: rgba(223, 222, 222, 0.349);
+}
+
+.btn-outline-primary {
+    border-color: grey;
+}
+
+.btn-outline-primary:hover {
+    border-color: #1a73e8;;
+    background-color: white;
+    color: #1a73e8;;
+}
+
+@media screen and (max-width:600px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .mobile h2 ,.mic-change h2,.strategy h2,.show-me h2,.find-plan h2  {
+        font-size: 1.6rem;
+    }
+
+    .hero p {
+        font-size: 0.6 rem ;
+    }
+
+    .mobile p,.mic-change p,.strategy p,.show-me p, .find-plan p, .one-app p {
+        font-size: 0.5 rem;
+    }
+
+    .hero .btns {
+        display: none;
+    }
+
+    .table .btn, .table h1,.table span,.table img {
+        display: none;
+    }
+
+    .table td {
+        font-size: 80%;
+    }
+
+    .table {
+        margin: 0;
+    }
+}
