@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>googleDrive</title>
+    <!-- icon link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- my css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar bg-white fixed-top">
+            <div class="container-fluid justify-content-start">
+                <a class="px-4 pt-2" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                    aria-controls="offcanvasExample">
+                    <h3 class="text-dark"><i class="bi bi-list"></i></h3>
+                </a>
+                <div class="d-flex align-items-center">
+                    <a class="navbar-brand me-0" href="#">
+                        <img src="image/driveLogo.svg" alt="Logo" class="align-text-top">
+                    </a>
+                    <h4><span style="font-weight: 500;color: black;">Google</span> Drive</h4>
+                </div>
+            </div>
+        </nav>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <div class="d-flex align-items-center">
+                    <a class="navbar-brand me-0" href="#">
+                        <img src="image/driveLogo.svg" alt="Logo" class="align-text-top">
+                    </a>
+                    <h4><span style="font-weight: 500;color: black;">Google</span> Drive</h4>
+                </div>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="menu-bar p-0 m-0">
+                    <ul>
+                        <li><a href="#overview">Overview</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#customers">Customers</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#download">Download</a></li>
+                        <li><a href="#">More tools</a></li>
+                    </ul>
+                </div>
+                <div class="menubar-icon ps-4">
+                    <p class="py-1"><img src="image/driveLogo.svg" alt="">Drive</p>
+                    <p class="py-1"><img src="image/gmail.svg" alt="">Gmail</p>
+                    <p class="py-1"><img src="image/meet.svg" alt="">Meet</p>
+                    <p class="py-1"><img src="image/calendar.svg" alt="">Calender</p>
+                    <p class="py-1"><img src="image/docs.svg" alt="">Docs</p>
+                    <p class="py-1"><img src="image/sheets.svg" alt="">Sheets</p>
+                    <p class="py-1"><img src="image/slides.svg" alt="">Slides</p>
+                    <p class="py-1"><img src="image/forms.svg" alt="">Forms</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero pt-5 mt-lg-5" id="overview">
+            <div class="container my-5">
+                <div class="row text-xl-start text-center">
+                    <div class="col-xl-6">
+                        <h1>Easy and secure access to your content</h1>
+                        <p class="py-3">Store, share, and collaborate on files
+                            and folders from your mobile device, tablet, or computer</p>
+                        <div class="btns d-flex justify-content-xl-start justify-content-center flex-wrap">
+                            <div class="btn1 ms-0 my-2">
+                                <a href="#" class="btn btn-primary">Try Drive for Work</a>
+                            </div>
+                            <div class="btn2 mx-2 my-2">
+                                <a href="#" class="btn btn-outline-primary">Go to Drive</a>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-xl-start justify-content-center flex-wrap my-5 ">
+                            <div class="btn1 ms-0 ">
+                                Don't have an account?
+                            </div>
+                            <div class="btn2 ms-2 text-primary">
+                                Sign up at no cost
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <img src="image/img1.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </section>
+
+        <p class="text-center pt-4">See what you can do with Google Drive</p>
+        <h3 class="text-center"><i class="bi bi-chevron-down"></i></h3>
+
+        <section class="mobile" id="features">
+            <div class="container my-5 py-5">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <img src="image/img2.jpg" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="mb-4">Built-in protections against malware, spam, and ransomware</h2>
+                        <p>Drive can provide encrypted and secure access to your files. Files shared with you can be
+                            proactively scanned and removed when malware, spam, ransomware, or phishing is detected. And
+                            Drive is cloud-native, which eliminates the need for local files and can minimize risk to
+                            your devices.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mic-change">
+            <div class="container my-5 py-5">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <h2 class="mb-4">People-first collaboration apps to supercharge teamwork</h2>
+                        <p>Drive integrates with Docs, Sheets, and Slides, cloud-native collaboration apps that enable
+                            your team to create content and collaborate more effectively in real time.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="image/img3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="strategy">
+            <div class="container my-5 py-5">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <img src="image/img4.jpg" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="mb-4">Integration with the tools and apps your team is already using</h2>
+                        <p>Drive integrates with and complements your team’s existing technology. Collaborate in
+                            Microsoft Office files without the need to convert file formats, and edit and store over 100
+                            additional file types, including PDFs, CAD files, images, and more.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="show-me">
+            <div class="container my-5 py-5">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <h2 class="mb-4">Google’s Search and AI technology helps your team move faster</h2>
+                        <p>Google’s powerful search capabilities are embedded in Drive and offer speed, reliability, and
+                            collaboration. And features like Drive search chips help your team find files fast by
+                            quickly surfacing more relevant results.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="image/img5.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="company-logo" id="customer">
+            <div class="container my-5 py-5">
+                <h2 class="text-center my-5">Drive integrates with the tools your team is already using</h2>
+                <div class="row">
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="logo">
+                            <img src="image/4.JPG" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="logo">
+                            <img src="image/3.JPG" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="logo">
+                            <img src="image/autodesk.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="logo">
+                            <img src="image/1.JPG" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="logo">
+                            <img src="image/6.JPG" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="logo">
+                            <img src="image/5.JPG" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="find-plan" id="pricing">
+            <div class="container text-center my-5 py-5">
+                <h2>Find the plan that’s right for you
+                </h2>
+                <p class="py-3">Google Drive is a part of Google Workspace
+                </p>
+                <h6 class="pb-3">Every plan includes</h6>
+                <div class="all-logo d-flex justify-content-center flex-wrap">
+                    <div class="logo-1">
+                        <img src="image/docs.svg" alt="">
+                        <p>Docs</p>
+                    </div>
+                    <div class="logo-1">
+                        <img src="image/sheets.svg" alt="">
+                        <p>Sheets</p>
+                    </div>
+                    <div class="logo-1">
+                        <img src="image/slides.svg" alt="">
+                        <p>Slides</p>
+                    </div>
+                    <div class="logo-1">
+                        <img src="image/forms.svg" alt="">
+                        <p>Forms</p>
+                    </div>
+                    <div class="logo-1">
+                        <img src="image/keep.svg" alt="">
+                        <p>Keep</p>
+                    </div>
+                    <div class="logo-1">
+                        <img src="image/sites.svg" alt="">
+                        <p>Sites</p>
+                    </div>
+                    <div class="logo-1">
+                        <img src="image/driveLogo.svg" alt="">
+                        <p>Drive</p>
+                    </div>
+                    <div class="logo-1">
+                        <img src="image/gmail.svg" alt="">
+                        <p>Gmail</p>
+                    </div>
+                    <div class="logo-1">
+                        <img src="image/meet.svg" alt="">
+                        <p>Meet</p>
+                    </div>
+                    <div class="logo-1">
+                        <img src="image/calendar.svg" alt="">
+                        <p>Calender</p>
+                    </div>
+                    <div class="logo-1">
+                        <img src="image/chat.svg" alt="">
+                        <p>Chat</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="table">
+            <div class="container text-center">
+                <table class="table table-bordered px-4">
+                    <thead>
+                        <tr>
+                            <td class="border-top-white"></td>
+                            <td>For Personal <span>(no cost)</span>
+                                <a href="#" class="btn btn-outline-primary">Go to Drive</a>
+                            </td>
+                            <td>Business Standard
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <h1 class="text-primary">₹672 INR</h1>
+                                    <span class="small ">/user/month</span>
+                                </div>
+                                <a href="#" class="btn btn-primary d-none d-md-block">Try Drive for Work</a>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-left"><img src="image/driveLogo.svg" alt=""> Drive Secure cloud storage</td>
+                            <td>15 GB per user</td>
+                            <td>2 TB per user</td>
+                        </tr>
+                        <tr>
+                            <td class="text-left">Target audience sharing</td>
+                            <td>
+                                <h3><i class="bi bi-dash"></i></h3>
+                            </td>
+                            <td>
+                                <h4><i class="bi bi-check2"></i></h4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-left">Shared drives for your team</td>
+                            <td>
+                                <h3><i class="bi bi-dash"></i></h3>
+                            </td>
+                            <td>
+                                <h4><i class="bi bi-check2"></i></h4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-left"><img src="image/docs.svg" alt=""> Docs, Sheets, Slides, Forms content
+                                creation</td>
+                            <td>
+                                <h4><i class="bi bi-check2"></i></h4>
+                            </td>
+                            <td>
+                                <h4><i class="bi bi-check2"></i></h4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-left"><img src="image/gmail.svg" alt=""> Gmail Secure email</td>
+                            <td>
+                                <h4><i class="bi bi-check2"></i></h4>
+                            </td>
+                            <td>
+                                <h4><i class="bi bi-check2"></i></h4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-left">Custom business email</td>
+                            <td>
+                                <h3><i class="bi bi-dash"></i></h3>
+                            </td>
+                            <td>
+                                <h4><i class="bi bi-check2"></i></h4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-left"><img src="image/meet.svg" alt=""> Meet Video and voice conferencing
+                            </td>
+                            <td>100 participants</td>
+                            <td>150 participants</td>
+                        </tr>
+                        <tr>
+                            <td class="text-left">Meeting recordings saved to Drive</td>
+                            <td>
+                                <h3><i class="bi bi-dash"></i></h3>
+                            </td>
+                            <td>
+                                <h4><i class="bi bi-check2"></i></h4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-left"><img src="image/security_administrations.svg" alt=""> Admin
+                                Centralized administration</td>
+                            <td>
+                                <h3><i class="bi bi-dash"></i></h3>
+                            </td>
+                            <td>
+                                <h4><i class="bi bi-check2"></i></h4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-left">Group-based security policy controls</td>
+                            <td>
+                                <h3><i class="bi bi-dash"></i></h3>
+                            </td>
+                            <td>
+                                <h4><i class="bi bi-check2"></i></h4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-left">Customer support</td>
+                            <td class="table-smallfont">Self-service online and community forums</td>
+                            <td>24/7 online support and community forums</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="one-app">
+            <div class="container text-center my-5  pb-5">
+                <h2 class="my-5 pt-5">Looking for more storage for your personal account?</h2>
+                <div class="img-one">
+                    <img src="image/oneLogo.png" alt="">
+                </div>
+                <p class="my-5">Google One is a subscription plan that gives you more storage
+                    to use across Google Drive, Gmail, and Google Photos. Plus, with
+                    Google One, you get extra benefits and can share your membership with your family.</p>
+                <h6 class="text-primary">Learn more about Google One</h6>
+            </div>
+        </section>
+        <hr>
+
+        <section class="side-photo">
+            <div class="container my-5 py-5">
+                <h2 class="text-center">Ready to get started?</h2>
+                <div class="btns d-flex justify-content-center flex-wrap my-5">
+                    <div class="btn1 mx-2 my-2">
+                        <a href="#" class="btn btn-primary">Try Drive for Work</a>
+                    </div>
+                    <div class="btn2 mx-2 my-2">
+                        <a href="#" class="btn btn-outline-primary">Go to Drive</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container py-5">
+            <div class="foot-icon d-flex my-2 py-1 flex-wrap">
+                <p>Follow our </p>
+                <span class="mx-2 text-primary">Blog</span>
+                <div class="yt mx-2">
+                    <h4><i class="bi bi-youtube"></i></h4>
+                </div>
+                <div class="twit mx-2">
+                    <h4><i class="bi bi-twitter"></i></h4>
+                </div>
+                <div class="face mx-2">
+                    <h4><i class="bi bi-facebook"></i></h4>
+                </div>
+            </div>
+            <hr>
+            <div class="row mt-5">
+                <div class="col-md-8">
+                    <div class="footer-links d-flex flex-wrap">
+                        <h4 class="me-1">Google</h4>
+                        <p class="mx-2">About Google</p>
+                        <p class="mx-2">Google products</p>
+                        <p class="mx-2">Privacy</p>
+                        <p class="mx-2">Terms</p>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex text-right flex-wrap">
+                    <div class="question-mark">
+                        <i class="bi bi-question-circle-fill"></i>
+                    </div>
+                    <p class="mx-3">Help</p>
+                    <p>English(India)</p>
+                    <h5 class="ms-5"><i class="bi bi-caret-down-fill"></i></h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- bootstrap javascript -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
